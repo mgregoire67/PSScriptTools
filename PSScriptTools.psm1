@@ -1,4 +1,7 @@
 #enable verbose messaging in the psm1 file
+
+#Trivial Change
+
 if ($MyInvocation.line -match '-verbose') {
     $VerbosePreference = 'continue'
 }
